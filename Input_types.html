@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Samples</title>
+    </head>
+    <body>
+        <h1>Input Types</h1>
+        <form>
+            <label>Enter Name: </label>
+            <input type="text" placeholder="Raj"><br><br>
+
+            <label>Enter Email: </label>
+            <input type="email" placeholder="abc@email.com"><br><br>
+
+            <label>Aadhar no.: </label>
+            <input type="number" placeholder="123456789077"><br><br>
+
+            <label>Password: </label>
+            <input type="password" placeholder="Enter Password"><br><br>
+
+            <!-- Placeholder doesn't work on date and time attributes -->
+
+            <label>Enter DOB </label>
+            <input type="date"><br><br>
+
+            <label>Enter Week: </label>
+            <input type="week"><br><br>
+
+            <label>Enter Month: </label>
+            <input type="month"><br><br>
+
+            <label>Enter Date and time: </label>
+            <input type="datetime-local"><br><br>
+
+            <!-- Checked keyword is used to check the checkbox already, even before the user inputs their decision -->
+
+            <label>Choose Interest: </label>
+            <input type="Checkbox" checked>Java
+            <input type="Checkbox">CSS
+            <input type="Checkbox">HTML
+            <input type="Checkbox">Python
+            
+            <br><br>
+
+            <!-- For Radio Group name is compulsory as it defines what options are there in a group (Ex: gender) -->
+
+            <label>Choose Gender: </label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Others
+
+            <br><br>
+
+            <label>Select Color: </label>
+            <input type="color"><br><br>
+
+            <label>Select Range: </label>
+            <input type="range"><br><br>
+
+            <label>Upload File: </label>
+            <input type="file"><br><br>
+
+            <!-- For selecting multiple files use multiple keyword -->
+
+            <label>Upload Files: </label>
+            <input type="File" multiple><br><br>
+
+            <label>Search: </label>
+            <input type="search" placeholder="Type to search..."><br><br>
+
+            <label>Enter URL: </label>
+            <input type="url" placeholder="https://example.com"><br><br>
+
+            <label>Phone no.: </label>
+            <input type="tel" placeholder="7894561230"><br><br>
+
+            <label>Select Cities: </label>
+            <select>
+                <option>Select your city...</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Delhi</option>
+                <option>Gurugram</option>
+            </select><br><br>
+
+            <!-- The text box in the textarea element can be increased and decresed -->
+
+            <label>Enter Address: </label>
+            <textarea rows="5" cols="25"></textarea><br><br>
+
+            <input type="button" value="Submit Form">
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+
+        </form>
+    </body>
+</html>
