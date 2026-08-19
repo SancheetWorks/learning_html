@@ -1,28 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reference Page</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reference Page</title>
+    </head>
+    <body>
 
-    <!-- Header start -->
-    <header>
-        <nav>
-            <a href="index1.html">Home</a> |
-            <a href="products.html">Products</a> |
-            <a href="services.html">Services</a> |
-            <a href="contact.html">Contact Us</a> |
-            <a href="about.html">About Us</a> |
-            <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
-            <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank">Youtube</a>
-        </nav>
-    </header>
-    <!-- Header end -->
+        <!-- Header start -->
+        <header>
+            <nav>
+                <a href="index1.html">Home</a> |
+                <a href="products.html">Products</a> |
+                <a href="services.html">Services</a> |
+                <a href="contact.html">Contact Us</a> |
+                <a href="about.html">About Us</a> |
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                |
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo"
+                    target="_blank">Youtube</a>
+            </nav>
+        </header>
+        <!-- Header end -->
 
-    <main>
-        <h1>This Products page</h1>
-    </main>
-</body>
+        <main>
+            <h1>This Products page</h1>
+            <hr>
+
+            <section>
+                <!-- Table using Rowspan -->
+                <table border="2">
+                    <thead>
+                        <th>Car Type</th>
+                        <th>Car Name</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="5"> SUV</td>
+                            <td>Creta</td>
+                        </tr>
+
+                        <tr>
+                            <td>BMW X7</td>
+                        </tr>
+
+                        <tr>
+                            <td>XUV700</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sieera</td>
+                        </tr>
+
+                        <tr>
+                            <td>Safari</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="4">Sedan</td>
+                            <td>Verna</td>
+                        </tr>
+
+                        <tr>
+                            <td>City</td>
+                        </tr>
+
+                        <tr>
+                            <td>Virtus</td>
+                        </tr>
+
+                        <tr>
+                            <td>camry</td>
+                        </tr>
+                    </tbody>
+
+                    <!-- Table using colspan -->
+                    <table border="2">
+                        <thead>
+                            <tr>
+                                <th colspan="9">Car</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <th colspan="5">Suv</th>
+                                <th colspan="4">Sedan</th>
+                            </tr>
+                            <tr>
+                                <td>BMW X7</td>
+                                <td>XUV700</td>
+                                <td>Creta</td>
+                                <td>Siera</td>
+                                <td>Safari</td>
+
+                                <td>Camry</td>
+                                <td>City</td>
+                                <td>Verna</td>
+                                <td>Glaze</td>
+                            </tr>
+                        </tbody>
+
+                        <!-- Used footer -->
+                        <tfoot>
+                            <tr>
+                                <th colspan="5">Suv</th>
+                                <th colspan="4">Sedan</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </table>
+            </section>
+
+        </main>
+
+        <hr>
+
+        <!-- Footer starts -->
+        <center>
+            <footer>
+                <p>copyright &copy; 2026 All Rights Reserved.</p>
+            </footer>
+        </center>
+        <!-- Footer Ends -->
+    </body>
 </html>
